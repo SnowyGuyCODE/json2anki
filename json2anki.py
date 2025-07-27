@@ -68,7 +68,7 @@ def main():
     os.system("cls")
     os.system("color 07")
     print("INSTRUCTIONS:\n1. Insert the JSON file into this directory (e.g. 'json2anki-main')\n2:", end=" ")
-    file_path = input("Enter the JSON file -> ").strip()
+    file_path = input("Enter the JSON file's name -> ").strip()
     
     if not os.path.exists(file_path):
         if file_path == "IncompatibleErrorFix":
