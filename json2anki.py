@@ -21,7 +21,7 @@ def json_to_anki(json_path):
     with open(out_path, 'w', encoding='utf-8') as f:
         f.write("\n".join(lines))
     
-    print(f"✅ Converted JSON → Anki TXT: {out_path}")
+    print(f"Converted JSON → Anki TXT: {out_path}")
     os.system("color a")
     os.system("pause>nul")
     os.system("color 07")
@@ -72,13 +72,13 @@ def main():
     
     if not os.path.exists(file_path):
         if file_path == "IncompatibleErrorFix":
-            print("❌ Change the answer value in 'data.txt'.")
+            print("Change the answer value in 'data.txt'.")
             os.system("color c")
             os.system("pause>nul")
             os.system("color 07")
             exit()
         else:
-            print("❌ File not found.")
+            print("File not found.")
             os.system("color c")
             os.system("pause>nul")
             os.system("color 07")
@@ -90,7 +90,7 @@ def main():
         if file_path == "IncompatibleErrorFix":
             exit()
         else:
-            print("❌ Unsupported file type. Use '.json'.")
+            print("Unsupported file type. Use '.json'.")
             os.system("color c")
             os.system("pause>nul")
             os.system("color 07")
