@@ -9,4 +9,5 @@ It was definitely one of the simpler little projects I had worked on.
 * Most forms of Windows 10
 * Many forms of Windows 11
 
+Instructions are displayed in the program.
 That's about it. Cya!
